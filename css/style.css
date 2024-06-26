@@ -1,0 +1,58 @@
+.codeur{
+    width: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.zone1{
+    display: flex;
+}
+
+.texte{
+    color: white;
+    font-size: 20px;
+}
+
+.allimg{
+    width: 50%;
+    padding: 5px;
+}
+
+.media{
+    display: block;
+    margin: auto;
+}
+
+.zone2{
+    display: flex; 
+}
+
+@media screen and (max-width: 768px) {
+    .allimg{
+        width: 96%;
+    }
+    .texte{
+        margin: auto;
+        font-size: 15px;
+    }
+    .zone1{
+        flex-direction: column;
+    }
+    .zone2{
+        flex-direction: column;
+    }
+    .media{
+        width: 96%;
+    
+    }
+
+}
